@@ -33,5 +33,15 @@ function numbers(nums){
 }
 numbers([1,3,2,4,5,6,-6,-8])
 
+
+
+function employeePayments( employeeDataArray){
+    return employeeDataArray.sort((a,b) => a.salary - b.salary);
+};
+
+ const result = employeePayments([{id:1, name: "Kaliza", salary: 200000}, {id:2, name: "jimmy", salary: 30000}, {id:3, name: "Ben", salary: 60000}])
+ console.log(result)
+
+
     
 
